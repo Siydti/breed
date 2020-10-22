@@ -1,0 +1,231 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小程序名称",
+				"navigationBarBackgroundColor": "#04c272",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/calim/calim",
+			"style": {
+				"usingComponents": {
+					"van-search": "/wxcomponents/vant/search/index"
+				},
+				"navigationBarTitleText": "羊群认养",
+				"navigationBarBackgroundColor": "#04c272",
+				"navigationBarTextStyle": "white"
+
+			}
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"usingComponents": {
+					"van-search": "/wxcomponents/vant/search/index"
+				},
+				"navigationBarTitleText": "羊群交易",
+				"navigationBarBackgroundColor": "#04c272",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"usingComponents": {
+					"van-stepper": "/wxcomponents/vant/stepper/index",
+					"van-swipe-cell": "/wxcomponents/vant/swipe-cell/index"
+				},
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor": "#04c272",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"usingComponents": {
+					"van-cell": "/wxcomponents/vant/cell/index"
+				},
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/personal/personal",
+			"style": {
+				"usingComponents": {
+					"van-cell": "/wxcomponents/vant/cell/index",
+					"van-icon": "/wxcomponents/vant/icon/index"
+				},
+				"navigationBarTitleText": "个人信息"
+			}
+		}, {
+			"path": "pages/record/record",
+			"style": {
+				"usingComponents": {
+					"van-cell": "/wxcomponents/vant/cell/index",
+					"van-icon": "/wxcomponents/vant/icon/index"
+				},
+				"navigationBarTitleText": "交易记录"
+			}
+		}, {
+			"path": "pages/ClaimMsg/ClaimMsg",
+			"style": {
+				"navigationBarBackgroundColor": "#04C272",
+				"navigationBarTitleText": "认领信息",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "交易详情"
+			}
+		}
+	    ,{
+            "path" : "pages/growthDynamic/growthDynamic",
+            "style" : {
+				"navigationBarTitleText": "成长动态"
+			}
+        }
+        ,{
+            "path" : "pages/serviceCharge/serviceCharge",
+            "style" : {
+				"navigationBarTitleText": "服务费详情"
+			}
+        }
+        ,{
+            "path" : "pages/property/property",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"usingComponents": {
+					"van-icon": "/wxcomponents/vant/icon/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/foodie/foodie",
+            "style" : {
+				"navigationBarTitleText": "吃货交割"
+			}
+        }
+        ,{
+            "path" : "pages/orderForm/orderForm",
+            "style" : {
+				"navigationBarTitleText": "订单信息"
+			}
+        }
+        ,{
+            "path" : "pages/setSite/setSite",
+            "style" : {
+				"navigationBarTitleText": "地址管理",
+				"usingComponents": {
+					"van-icon": "/wxcomponents/vant/icon/index",
+					"van-switch": "/wxcomponents/vant/switch/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/transactionRecord/transactionRecord",
+            "style" : {
+				"navigationBarTitleText": "成交记录"
+			}
+        }
+    ],
+	"subPackages": [{
+		"root": "pagesA",
+		"pages": [{
+			"path": "howCalim/howCalim",
+			"style": {
+				"usingComponents": {
+					"van-icon": "/wxcomponents/vant/icon/index"
+				},
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "payDetail/payDetail",
+			"style": {
+				"navigationBarTitleText": "交易明细"
+			}
+		}, {
+			"path": "deposit/deposit",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		}    ,{
+                    "path" : "calimDetail/calimDetail",
+                    "style" : {
+						"navigationStyle": "custom",
+						"usingComponents": {
+						  "van-stepper": "/wxcomponents/vant/stepper/index",
+						  "van-icon": "/wxcomponents/vant/icon/index"
+						}
+					}
+                }
+                ,{
+                    "path" : "schedule/schedule",
+                    "style" : {
+						"navigationBarTitleText": "宰割进度",
+						"usingComponents": {
+						  "van-icon": "/wxcomponents/vant/icon/index",
+						  "van-steps": "/wxcomponents/vant/steps/index"
+						}
+					}
+                }
+                ,{
+                    "path" : "payment/payment",
+                    "style" : {
+						"navigationBarTitleText": "支付详情"
+					}
+                }
+                ,{
+                    "path" : "peysucceed/peysucceed",
+                    "style" : {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "支付成功"
+					}
+                }
+            ]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#00aa00",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/img/ICON/home.png",
+				"selectedIconPath": "/static/img/ICON/home_on.png"
+			},
+			{
+				"pagePath": "pages/calim/calim",
+				"text": "羊群认养",
+				"iconPath": "/static/img/ICON/order.png",
+				"selectedIconPath": "/static/img/ICON/order_on.png"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "羊群交易",
+				"iconPath": "/static/img/ICON/mess.png",
+				"selectedIconPath": "/static/img/ICON/mess_on.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "/static/img/ICON/cart.png",
+				"selectedIconPath": "/static/img/ICON/cart_on.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "/static/img/ICON/mine.png",
+				"selectedIconPath": "/static/img/ICON/mine_on.png"
+			}
+		]
+	}
+}

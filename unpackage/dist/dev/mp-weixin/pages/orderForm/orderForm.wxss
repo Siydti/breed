@@ -1,0 +1,129 @@
+page{
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+}
+.orderForm{
+	width: 100%;
+	height: 100%;
+	border-top: 1rpx solid #E8E8E8;
+	padding-top: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.orderForm_list{
+	width: 691rpx;
+	height: 327rpx;
+	margin-bottom: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	background-color: #fff;
+}
+.orderForm_listTitle{
+	width: 100%;
+	border-bottom: 1rpx dashed #ccc;
+	height: 70rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #000;
+	font-size: 20rpx;
+}
+.orderForm_listMain{
+	width: 100%;
+	height: 188rpx;
+	border-bottom: 1rpx solid #ccc;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.orderForm_listMain_left{
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 12rpx;
+	margin-right: 20rpx;
+	margin-left: 10rpx;
+}
+.orderForm_listMain_mid{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	color: #666;
+	font-size: 20rpx;
+}
+.orderForm_listMain_right{
+	color: #F40D0D;
+	font-size: 18rpx;
+	margin-right: 10rpx;
+}
+.orderForm_listFoot{
+	width: 100%;
+	height: 66rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.orderForm_listFoot_left{
+	color: #6C7072;
+	font-size: 30rpx;
+	text-indent: 12rpx;
+}
+.orderForm_listFoot_right{
+	color: #F40D0D;
+	font-size: 20rpx;
+}
+.orderForm_listFoot_right text{
+	text-align: 10rpx;
+	font-size: 26rpx;
+}
+.orderForm_btn{
+	margin-top: 160rpx;
+	width: 690rpx;
+	height: 92rpx;
+	line-height: 92rpx;
+	background-color: #FF6C00;
+	color: #fff;
+	font-size: 36rpx;
+	border-radius: 10rpx;
+	text-align: center;
+}
+

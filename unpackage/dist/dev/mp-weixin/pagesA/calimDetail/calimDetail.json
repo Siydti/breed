@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-stepper": "/wxcomponents/vant/stepper/index",
+    "van-icon": "/wxcomponents/vant/icon/index"
+  }
+}

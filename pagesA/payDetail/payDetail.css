@@ -1,0 +1,46 @@
+.payDetail_title{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 28rpx;
+	color: #333333;
+	height: 80rpx;
+	margin: 0px 10rpx;
+}
+
+.title_active{
+	color: #06C474;
+	font-size: 30rpx;
+	position: relative;
+}
+.title_active_after{
+	height: 4rpx;
+	width: 98rpx;
+	background-color: #06C474;
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.payDetail_list {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 26rpx;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.payDetail_list_right{
+	text-align: right;
+	}
+
+.payDetail_list_left_money,.payDetail_list_right_ucceed{
+	font-size: 26rpx;
+	color: #6D6D6D;
+	margin-bottom: 5px;
+}
+
+.payDetail_list_left_type,.payDetail_list_right_time{
+	font-size: 18rpx;
+	color: #D8D8D8;
+}

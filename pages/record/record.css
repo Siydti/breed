@@ -1,0 +1,71 @@
+.record_top_box {
+	height: 440rpx;
+	width: 100%;
+	background-size: 100%, 440rpx;
+	position: relative;
+	top: -20px;
+}
+
+.record_top {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	text-align: center;
+}
+
+.record_top_balance {
+	font-size: 60rpx;
+}
+
+.record_top_hint {
+	font-size: 18rpx;
+}
+
+
+.cell_box .van-cell__left-icon-wrap {
+	font-size: 40rpx;
+}
+
+.record_list_title {
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx 26rpx;
+	background-color: #F2F2F2;
+	color: #FD7C2E;
+	font-size: 28rpx
+}
+
+.record_list_title_right {
+	display: flex;
+
+}
+
+.record_list_title_right_icon {
+	color: #ADADAD;
+	font-size: 36rpx;
+	margin-left: 5px;
+}
+
+.record_list {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 26rpx;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.record_list_right{
+	text-align: right;
+	}
+
+.record_list_left_money,.srecord_list_right_ucceed{
+	font-size: 26rpx;
+	color: #6D6D6D;
+	margin-bottom: 5px;
+}
+
+.record_list_left_type,.record_list_right_time{
+	font-size: 18rpx;
+	color: #D8D8D8;
+}

@@ -1,0 +1,72 @@
+.peysucceed_topBar{
+	color: #000000;
+	font-size: 36rpx;
+}
+.peysucceed_title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 0px 30rpx;
+	padding: 80rpx 0px 64rpx 0px ;
+	border-bottom: 1rpx solid #dedede;
+}
+.peysucceed_listBox{
+	padding: 0px 30rpx;
+	margin: 24rpx;
+	border-bottom: 1rpx solid #dedede;
+	margin-bottom: 40rpx;
+}
+.peysucceed_listTitle{
+	color: #999999;
+	font-size: 24rpx;
+	margin-bottom: 24rpx;
+}
+.peysucceed_list{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-bottom: 24rpx;
+}
+.peysucceed_list_left{
+	width: 140rpx;
+	color: #333;
+	font-size: 28rpx;
+}
+.peysucceed_list_right{
+	color: #666;
+	font-size: 28rpx;
+}
+.peysucceed_btnBox{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding : 0px 30rpx ;
+}
+.peysucceed_btnBox_left,.peysucceed_btnBox_right{
+	width: 320rpx;
+	height: 80rpx;
+	font-size: 32rpx;
+	text-align: center;
+	line-height: 80rpx;
+}
+.peysucceed_btnBox_left{
+	border: 1rpx solid #FF6C00;
+	color: #FF6C00;
+}
+.peysucceed_btnBox_right{
+	background-color: #FF6C00;
+	color: #fff;
+}
+

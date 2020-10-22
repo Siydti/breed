@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/calim/calim",
+    "pages/message/message",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/personal/personal",
+    "pages/record/record",
+    "pages/ClaimMsg/ClaimMsg",
+    "pages/list/list",
+    "pages/growthDynamic/growthDynamic",
+    "pages/serviceCharge/serviceCharge",
+    "pages/property/property",
+    "pages/foodie/foodie",
+    "pages/orderForm/orderForm",
+    "pages/setSite/setSite",
+    "pages/transactionRecord/transactionRecord"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "howCalim/howCalim",
+        "payDetail/payDetail",
+        "deposit/deposit",
+        "calimDetail/calimDetail",
+        "schedule/schedule",
+        "payment/payment",
+        "peysucceed/peysucceed"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#00aa00",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/img/ICON/home.png",
+        "selectedIconPath": "/static/img/ICON/home_on.png"
+      },
+      {
+        "pagePath": "pages/calim/calim",
+        "text": "羊群认养",
+        "iconPath": "/static/img/ICON/order.png",
+        "selectedIconPath": "/static/img/ICON/order_on.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "羊群交易",
+        "iconPath": "/static/img/ICON/mess.png",
+        "selectedIconPath": "/static/img/ICON/mess_on.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/static/img/ICON/cart.png",
+        "selectedIconPath": "/static/img/ICON/cart_on.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/img/ICON/mine.png",
+        "selectedIconPath": "/static/img/ICON/mine_on.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

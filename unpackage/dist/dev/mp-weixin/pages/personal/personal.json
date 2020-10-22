@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "usingComponents": {
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "van-icon": "/wxcomponents/vant/icon/index"
+  }
+}

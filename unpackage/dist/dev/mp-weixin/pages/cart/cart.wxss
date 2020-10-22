@@ -1,0 +1,113 @@
+
+.sex.data-v-0f00adf4,.largeNum.data-v-0f00adf4{
+	color: #666666;
+	font-size: 24rpx;
+}
+.cartInfo.data-v-0f00adf4{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-left: 43rpx;
+}
+.cartMess.data-v-0f00adf4{
+	width: auto;
+	height: 168rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: space-evenly;
+	-webkit-justify-content: space-evenly;
+	        justify-content: space-evenly;
+	margin-left: 15rpx;
+}
+.priceIcon.data-v-0f00adf4,.priceItem.data-v-0f00adf4{
+	color: #FF7B22;
+	margin-left: -5rpx;
+}
+.largeNum.data-v-0f00adf4{
+	width: auto;
+	white-space: nowrap;
+}
+.priceIcon.data-v-0f00adf4{
+	font-size: 24rpx;
+}
+.shopItem.data-v-0f00adf4{
+	margin: 0 60rpx;
+	height: 220rpx;
+	border-bottom: 2rpx solid #CCCCCC;
+}
+.shopItem.data-v-0f00adf4{
+	position: relative;
+}
+.selectImg.data-v-0f00adf4{
+	padding-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.add.data-v-0f00adf4{
+	position: absolute;
+	right: 0;
+	bottom: 50rpx;
+}
+.data-v-0f00adf4 .plus{
+	color: #666666;
+	background-color: #E6E6E6 !important;
+}
+.del.data-v-0f00adf4{
+	width: 120rpx;
+	height: 220rpx;
+	background-color: red;
+	text-align: center;
+	line-height: 220rpx;
+	color: #FFFFFF;
+	margin-left: 50rpx;
+}
+.cartFooter.data-v-0f00adf4{
+	position: fixed;
+	width: 100%;
+	padding-left: 60rpx;
+	background-color: #FFFFFF;
+	bottom: 0;
+	left: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 100rpx;
+	z-index: 300;
+}
+.cartLeft.data-v-0f00adf4{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+}
+.cartRight.data-v-0f00adf4{
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+	background-color: #FF6C00;
+	z-index: 10;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 100rpx;
+}
+.rightPrice.data-v-0f00adf4{
+	margin-left: -100rpx;
+}
+

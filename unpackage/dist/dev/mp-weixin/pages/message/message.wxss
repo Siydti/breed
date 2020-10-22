@@ -1,0 +1,96 @@
+.search {
+	width: 80%;
+}
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background-color: #fff;
+}
+.top .screen {
+	padding-top: 10rpx;
+	height: 81rpx;
+	color: #414141;
+	line-height: 81rpx;
+	position: relative;
+}
+.screenBar {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	color: #FFFFFF;
+	height: 80rpx;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.triangle {
+	width: 9rpx;
+	height: 5rpx;
+	vertical-align: middle;
+	margin-left: 10rpx;
+}
+.selectColor {
+	color: #F86B05;
+}
+.smallTriangle {
+	width: 0rpx;
+	height: 0rpx;
+	border-width: 20rpx;
+	border-style: solid;
+	border-color: transparent transparent #797979 transparent;
+	position: absolute;
+	right: 60rpx;
+	top: 75rpx;
+}
+.calimImg {
+	width: 338rpx;
+	height: 430rpx;
+	background-color: #FFFFFF;
+	padding-bottom: 11rpx;
+	margin-left: 26rpx;
+	margin-top: 10rpx;
+	margin-bottom: 20rpx;
+}
+.introducText {
+	color: #676767;
+	height: 60rpx;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	font-size: 20rpx;
+	padding: 0 10rpx;
+}
+.cartImg{
+	float: right;
+	margin-right: 11rpx;
+	margin-bottom: 11rpx;
+}
+.calimPrice{
+	color: #FF8031;
+	margin-right: 10rpx;
+}
+.priceCalim{
+	display: inline-block;
+	margin-left: 10rpx;
+}
+.manyCalim{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap:wrap;
+	        flex-wrap:wrap;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+}
+page{
+	background-color: #F2F2F2;
+}
+

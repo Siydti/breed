@@ -1,0 +1,88 @@
+.logo{
+	display: flex;
+	border: 2rpx solid #d3d3d3;
+	height: 181rpx;
+	margin: 20rpx 25rpx;
+	border-radius: 10rpx;
+}
+.logo .introduce{
+	padding: 10rpx;
+	font-size: 20rpx;
+	color:#747474;
+}
+.problem{
+	display: flex;
+	margin: 0 25rpx;
+}
+.someProblem{
+	position: relative;
+}
+.someProblem .answer{
+	position: absolute;
+	top: 18rpx;
+	font-size: 40rpx;
+	color: #FFFFFF;
+	left: 13rpx;
+}
+.someProblem .fastLook{
+	position: absolute;
+	height: 26rpx;
+	width: 86rpx;
+	bottom: 20rpx;
+	background-color: #FFFFFF;
+	left: 10rpx;
+	color: #4DA869;
+	font-size: 12rpx;
+	text-align: center;
+	line-height: 26rpx;
+	border-radius: 5rpx;
+}
+
+.howCalim{
+	position: relative;
+	margin-top: 8rpx;
+}
+.howCalim .calim{
+	position: absolute;
+	top: 10rpx;
+	font-size: 25rpx;
+	color: #FFFFFF;
+	left: 11rpx;
+}
+.howCalim .fastLookSc{
+	position: absolute;
+	height: 26rpx;
+	width: 86rpx;
+	bottom: 22rpx;
+	background-color: #FFFFFF;
+	left: 10rpx;
+	color: #FF8F53;
+	font-size: 12rpx;
+	text-align: center;
+	line-height: 26rpx;
+	border-radius: 5rpx;
+}
+.howSell{
+	position: relative;
+	margin-top: -8rpx;
+}
+.howSell .sell{
+	position: absolute;
+	top: 10rpx;
+	font-size: 25rpx;
+	color: #FFFFFF;
+	left: 11rpx;
+}
+.howSell .fastLookrd{
+	position: absolute;
+	height: 26rpx;
+	width: 86rpx;
+	bottom: 22rpx;
+	background-color: #FFFFFF;
+	left: 10rpx;
+	color: #24D9D2;
+	font-size: 12rpx;
+	text-align: center;
+	line-height: 26rpx;
+	border-radius: 5rpx;
+}

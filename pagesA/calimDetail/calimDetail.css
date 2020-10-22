@@ -1,0 +1,279 @@
+page{
+	height: 100%;
+}
+
+.calimDetail{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.detail_main{
+	flex: 1;
+	overflow-y: scroll;
+}
+
+
+
+
+.detailTop {
+	margin-top: 40rpx;
+	position: relative;
+}
+
+.back {
+	position: absolute;
+	top: 23rpx;
+	left: 26rpx;
+}
+
+.imgNum {
+	position: absolute;
+	bottom: 6rpx;
+	right: 26rpx;
+}
+
+.detail_title {
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx 26rpx;
+	background-color: #fff;
+}
+
+.detail_describe_box {
+	display: flex;
+	padding: 0px 26rpx;
+}
+
+.detail_describe {
+	flex: 1;
+	background-color: #F2F2F2;
+	color: #666666;
+	font-size: 18rpx;
+	line-height: 30rpx;
+	padding: 10rpx;
+}
+
+.detail_price {
+	background-color: #fff;
+	height: 56rpx;
+	padding-left: 26rpx;
+}
+
+.detail_outline {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70rpx;
+	background-color: #F2F2F2;
+}
+
+.detail_outline_left,
+.detail_outline_mid,
+.detail_outline_right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.detail_outline_top {
+	color: #000000;
+	font-size: 18rpx;
+	margin-bottom: 8rpx;
+}
+
+.detail_outline_bottom {
+	color: #666666;
+	font-size: 18rpx;
+}
+
+.detail_outline_partition {
+	width: 2rpx;
+	height: 40rpx;
+	background: #999999;
+}
+
+
+.detailBottom_listBegin{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20rpx 24rpx ;
+}
+
+.detailBottom_listBegin_left{
+	color: #666666;
+	font-size: 20rpx;
+}
+
+.van-stepper__minus{
+	background-color: #E6E6E6 !important;
+	color: #999999 !important;
+	font-weight: bold !important; 
+}
+
+.van-stepper__plus{
+	background-color: #FF6C00 !important;
+	color: #fff !important;
+	font-weight: bold !important; 
+}
+
+.van-stepper__input {
+	font-size: 22rpx !important;
+	margin-top: -2px !important;
+	}
+
+.detailBottom_list{
+	padding :  20rpx 24rpx ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.detailBottom_list_left{
+	display: flex;
+	align-items: center;
+	color: #666666;
+	font-size: 20rpx;
+}
+
+.detailBottom_list_right{
+	display: flex;
+	align-items: center;
+	color: #999999;
+	font-size: 22rpx;
+}
+
+.detailBottom_list_right_content text{
+	color: #FF0101;
+	margin-right: 8rpx;
+}
+
+.detailBottom_list_right_content{
+	margin-right: 10rpx;
+}
+
+
+.detailBottom{
+	height: 100rpx;
+	background-color: #fff;
+	border-top: 1rpx solid #D8D8D7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 26rpx;
+}
+
+.detailBottom_left{
+	display: flex;
+	align-items: center;
+}
+
+.detailBottom_right{
+	background-color: #FF6C00;
+	width: 220rpx;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	color: #fff;
+	font-size: 32rpx;
+	border-radius: 6rpx;
+}
+
+
+/* 弹框 */
+.monthlyFee_box {
+	position: fixed;
+	z-index: 300;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.monthlyFee_top {
+	flex: 1;
+	background-color: rgba(23, 3, 3, 0.2);
+}
+
+
+.monthlyFee_box_main{
+	position: fixed;
+	bottom: 0px;
+	background-color: #fff;
+	border-radius: 20rpx 20rpx 0px 0px ;
+}
+
+.monthlyFee_title {
+	margin: 20rpx 16rpx;
+	padding-bottom: 20rpx;
+	text-align: center;
+	color: #000000;
+	font-size: 34rpx;
+	border-bottom: 2rpx solid #E6E6E6;
+}
+
+.monthlyFee_list {
+	display: flex;
+	padding: 24rpx 32rpx;
+	color: #666666;
+	font-size: 24rpx;
+}
+
+.monthlyFee_btn {
+	height: 100rpx;
+	background-color: #FF6C00;
+	color: #FFFFFF;
+	font-size: 34rpx;
+	text-align: center;
+	line-height: 100rpx;
+}
+
+.fixedbox{
+	position: fixed;
+	top: 0;left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1,1,1,0.3);
+	z-index: 300;
+}
+
+.risk_title{
+	position: absolute;
+	top: 516rpx;
+	left: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 34rpx;
+	width: 100%;
+}
+
+.risk_listbox{
+	position: absolute;
+	top: 620rpx;
+	left: 0;
+	text-align: center;
+	color: #666666;
+	font-size: 30rpx;
+	width: 100%;
+}
+
+.risk_list{
+	margin-bottom: 28rpx;
+}
+
+.risk_btn{
+	position: absolute;
+	top: 832rpx;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 479rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 80rpx;
+	color: #fff;
+	font-size: 32rpx;
+	text-align: center;
+}

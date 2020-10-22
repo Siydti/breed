@@ -1,0 +1,71 @@
+page{
+	height: 100%;
+}
+.ClaimMsg{
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.ClaimMsg_box{
+		width: 698rpx;
+		background-color: #fff;
+		margin: 10rpx 0px;
+}
+.ClaimMsg_title{
+		line-height: 54rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		border-bottom: 1rpx solid #e5e5e5;
+		font-size: 23rpx;
+}
+.ClaimMsg_title_left image{
+		width: 34rpx;
+		height: 34rpx;
+		margin: 0px 20rpx 0px 15rpx;
+}
+.ClaimMsg_title_right{
+		color: #04c272;
+}
+.ClaimMsg_main{
+		height: 206rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+}
+.ClaimMsg_main_left image{
+		height: 166rpx;
+		width: 166rpx;
+		margin: 20rpx 20rpx 20rpx 10rpx;
+}
+.ClaimMsg_main_mid{
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+		margin-top: 20rpx;
+		color: #666;
+		font-size: 22rpx;
+}
+.ClaimMsg_main_right{
+		margin-right: 17rpx;
+		color: #FF6C00;
+		font-size: 26rpx;
+		line-height: 166rpx;
+}
+

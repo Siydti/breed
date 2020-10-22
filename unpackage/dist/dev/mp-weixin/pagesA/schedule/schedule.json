@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "宰割进度",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "van-steps": "/wxcomponents/vant/steps/index"
+  }
+}
